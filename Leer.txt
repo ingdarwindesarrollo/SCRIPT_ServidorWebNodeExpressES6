@@ -1,0 +1,12 @@
+Script PowerShell listo para usar:
+# Mover el .ps1 a la carpeta padre donde quieras crear proyectos,
+# luego Shift+clic derecho > "Abrir ventana de PowerShell aquí"
+
+.\create-node-server.ps1 -name "mi-nuevo-proyecto"
+.\create-node-server.ps1 -name "mi-api" -port 4000
+Paso	Acción
+1	Crea carpetas config, server, public
+2	Genera los 7 archivos del proyecto
+3	Ejecuta npm install automáticamente
+4	Muestra el árbol de archivos
+5	Arranca el servidor con nodemon
